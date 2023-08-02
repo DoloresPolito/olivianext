@@ -64,77 +64,77 @@
     "text3": "Los textos se entregan en formato digital pero la propuesta puede incluir también el diseño y la impresión del libro."
   },
   "work": {
-    "1": {
+    "one": {
       "year": 2019,
       "title": "proyecto Inés Miguens",
       "subtitle": "Traducción de textos al inglés para concurso de fotografía"
     },
-    "2": {
+    "two": {
       "year": 2019,
       "title": "proyecto Casandra",
       "subtitle": "Escritura de textos para página web"
     },
-    "3": {
+    "three": {
       "year": 2019,
       "title": "Viento, de Nicolás Cassese",
       "subtitle": "Investigación, corrección y edición para el libro de Santiago Lange"
     },
-    "4": {
+    "four": {
       "year": 2020,
       "title": "proyecto A",
       "subtitle": "Escritura de memorias"
     },
-    "5": {
+    "five": {
       "year": 2020,
       "title": "proyecto N",
       "subtitle": "Escritura de memorias"
     },
-    "6": {
+    "six": {
       "year": 2021,
       "title": "proyecto B",
       "subtitle": "Escritura de memorias"
     },
-    "7": {
+    "seven": {
       "year": 2021,
       "title": "proyecto P",
       "subtitle": "Escritura de memorias"
     },
-    "8": {
+    "eight": {
       "year": 2021,
       "title": "proyecto G",
       "subtitle": "Escritura de memorias"
     },
-    "9": {
+    "nine": {
       "year": 2021,
       "title": "proyecto Happy Together para Unilever",
       "subtitle": "Producción de contenido y escritura para el libro Cocineras al rescate"
     },
-    "10": {
+    "ten": {
       "year": 2021,
       "title": "proyecto Estudio Ramos",
       "subtitle": "Escritura de textos para el libro Honest Modernism"
     },
-    "11": {
+    "eleven": {
       "year": 2022,
       "title": "proyecto V",
       "subtitle": "Escritura de memorias"
     },
-    "12": {
+    "twelve": {
       "year": 2022,
       "title": "proyecto W",
       "subtitle": "Escritura de textos para libro de fotos"
     },
-    "13": {
+    "thirteen": {
       "year": 2022,
       "title": "proyecto Maderas en el tiempo",
       "subtitle": "Escritura de textos para la muestra de arte de Sara Santamarina"
     },
-    "14": {
+    "fourteen": {
       "year": 2022,
       "title": "proyecto Madariaga",
       "subtitle": "Producción de contenido y escritura del libro xxx"
     },
-    "15": {
+    "fifteen": {
       "year": 2023,
       "title": "proyecto M",
       "subtitle": "Escritura de textos para libro de fotos"

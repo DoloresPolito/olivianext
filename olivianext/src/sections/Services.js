@@ -168,10 +168,6 @@ const [width, setWidth] = useState(null);
   );
 };
 
-export async function getStaticProps({ locale }) {
- const response = await import(`../lang/${locale}.json`)
- console.log(response)
-}
 
 const ServiceSection = styled.div`
   height: 100vh;

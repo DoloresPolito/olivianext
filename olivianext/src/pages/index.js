@@ -46,6 +46,7 @@ const Home = (props) => {
 
   const handleClick = (l) => () => {
     push("/", undefined, { locale: l });
+ 
   };
 
   return (
@@ -122,7 +123,6 @@ const Home = (props) => {
 
 export async function getStaticProps({ locale }) {
   const response = await import(`../lang/${locale}.json`)
-  console.log(response.default.services)
   return({
     props:{
       services:response.default.services,

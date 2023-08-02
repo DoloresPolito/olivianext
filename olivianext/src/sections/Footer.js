@@ -9,6 +9,7 @@ import linkedin from "../../public/assets/icons/linkedin/linkedin-white.png";
 import mail from "../../public/assets/icons/mail/email-white.png";
 import { Link as SmoothLink } from "react-scroll";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = ({ info }) => {
   const animation = useAnimation();
@@ -115,20 +116,24 @@ const Footer = ({ info }) => {
                   <>
                     {/* <RouterLink to="/oliviapollitzer?services">
                       {" "} */}
-                    <li>{info.services}</li> {/* </RouterLink> */}
+                    <Link href="/">
+                      <li>{info.services}</li>
+                    </Link>
+                    {/* </RouterLink> */}
                   </>
                 )}
-                {/* <RouterLink to="/work">
-                  {" "} */}
-                <li> {info.work}</li>
-                {/* </RouterLink>
-                <RouterLink to="/bio">
-                  {" "} */}
-                <li>{info.about}</li>{" "}
-                {/* </RouterLink>
-                <RouterLink to="/contact">
-                  {" "} */}
-                <li>{info.contact}</li> {/* </RouterLink> */}
+
+                <Link href="/work">
+                  <li> {info.work}</li>
+                </Link>
+
+                <Link href="/bio">
+                  <li>{info.about}</li>{" "}
+                </Link>
+
+                <Link href="/contact">
+                  <li>{info.contact}</li>
+                </Link>
               </ul>
             </Column2>
 
@@ -192,24 +197,23 @@ const Footer = ({ info }) => {
                   <>
                     {/* <RouterLink to="/oliviapollitzer?services">
                       {" "} */}
-                    <li>{info.services}</li> {/* </RouterLink> */}
+                    <Link href="/">
+                      <li>{info.services}</li> {/* </RouterLink> */}
+                    </Link>
                   </>
                 )}
-                {/* <RouterLink to="/services">
-                  {" "}
-                  <li> {info.services}</li>{" "}
-                </RouterLink> */}
-                {/* <RouterLink to="/work">
-                  {" "} */}
-                <li> {info.work}</li>{" "}
-                {/* </RouterLink>
-                <RouterLink to="/bio">
-                  {" "} */}
-                <li>{info.about}</li>{" "}
-                {/* </RouterLink>
-                <RouterLink to="/contact">
-                  {" "} */}
-                <li>{info.contact}</li> {/* </RouterLink> */}
+
+                <Link href="/work">
+                  <li> {info.work}</li>{" "}
+                </Link>
+
+                <Link href="/bio">
+                  <li>{info.about}</li>{" "}
+                </Link>
+
+                <Link href="/contact">
+                  <li>{info.contact}</li>
+                </Link>
               </ul>
             </Div>
             <div>

@@ -32,16 +32,17 @@ const Navbar = ({ info }) => {
   //     localStorage.setItem("lng", lng);
   //   };
 
-  const handleHome = () => {
-    navigate("/oliviapollitzer");
-  };
+
 
   return (
     <NavbarSection mode={medium >= 1040 ? "absolute" : "fixed"} view={view}>
       <NavbarContainer>
+        <Link href="/">
         <LogoContainer>
-          <Image src={toplogo} alt="logo" onClick={() => handleHome()}/>
+          <Image src={toplogo} alt="logo"  />
         </LogoContainer>
+        </Link>
+ 
         {width >= medium ? (
           <>
             <TabsBox view={view} mode="large">
@@ -83,13 +84,7 @@ const Navbar = ({ info }) => {
                   href="https://www.instagram.com/olipollitzer/"
                   target="_blank"
                 >
-                  <Image
-                    src={instagram}
-                    className="social"
-                    alt="instagram"
-                    height="22px"
-                    width="22px"
-                  />
+                  <Image src={instagram} className="social" alt="instagram" />
                 </a>
               </Circle>
             </TabsBox>
@@ -124,14 +119,13 @@ const LogoContainer = styled.div`
   height: 280px;
   width: 160px;
 
-
-  img{
+  img {
     cursor: pointer;
-  position: absolute;
-  left: -30px;
-  top: -103px;
-  height: 280px;
-  width: 160px;
+    position: absolute;
+    left: -30px;
+    top: -103px;
+    height: 280px;
+    width: 160px;
   }
 `;
 
@@ -254,6 +248,8 @@ const Circle = styled.div`
 
   img {
     margin-left: 35px;
+    height: 22px;
+    width: 22px;
   }
 `;
 
